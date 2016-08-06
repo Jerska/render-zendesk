@@ -1,0 +1,11 @@
+{
+  "name": "render-zendesk",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "Matthieu Dumont <jerska@live.fr>",
+  "license": "MIT",
+  "dependencies": {
+    "phantomjs": "^2.1.7"
+  }
+}
