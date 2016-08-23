@@ -19,6 +19,6 @@ phantomjs index.js "$app_name" >/dev/null 2>&1
 
 mkdir -p gifs
 gif_path=gifs/$app_name.gif
-convert -layers Optimize -delay 15 -loop 0 `find images/$app_name -name "*.png" | sort` $gif_path
+convert -layers Optimize -delay 6 -loop 0 `find images/$app_name -name "*.png" | sort` $gif_path
 size=`ls -lh $gif_path | awk '{print $5}'`
 echo $gif_path: $size
